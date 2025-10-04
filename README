@@ -1,0 +1,45 @@
+# Deep Cross-Brain Neural Networks: A Novel Architecture for Advanced Time Series Forecasting
+
+This repository contains the official source code and experimental results for the paper:  
+**“Deep Cross-Brain Neural Networks: A Novel Architecture for Advanced Time Series Forecasting.”**
+
+---
+
+## Authors
+
+
+---
+
+##  Paper Status
+
+
+---
+
+##  Overview
+The **Cross-Brain Neural Network (CBNN)** and **Deep Cross-Brain Neural Network (DCBNN)** are biologically inspired deep learning architectures designed to model *inter-hemispheric communication* for improved time-series forecasting.
+
+Key features:
+- **Hemispheric specialization:** LSTM (temporal) + CNN (spatial) asymmetric subnetworks  
+- **Corpus Callosum Connection (CCC):** Learnable cross-layer projection between hemispheres  
+- **Walk-Forward Cross-Validation (WFCV):** Expanding-window evaluation across multiple assets  
+- **Comprehensive baselines:** CNN, LSTM, DLinear, TFT, FEDformer, PatchTST  
+- **Statistical validation:** Diebold–Mariano tests, confidence intervals, and directional accuracy metrics  
+
+---
+
+## 📁 Repository Structure
+.
+├── notebooks/
+│ ├── cross_brain_model_stock_market_AAPL.ipynb
+│ ├── cross_brain_model_stock_market_AMZN.ipynb
+│ ├── cross_brain_model_stock_market_GOOGL.ipynb
+│ ├── cross_brain_model_stock_market_SBUX.ipynb
+│ └── cross_brain_model_stock_market_TLT.ipynb
+├── results/
+│ └── CrossBrainWFCV.csv
+├── metrics/
+│ └── WFCV_Metrics_Total.csv
+├── dm_tests/
+│ └── DM_Test_Results.csv
+└── README.md
+
