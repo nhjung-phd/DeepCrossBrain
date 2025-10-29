@@ -22,7 +22,7 @@ Key features:
 - **Hemispheric specialization:** LSTM (temporal) + CNN (spatial) asymmetric subnetworks  
 - **Corpus Callosum Connection (CCC):** Learnable cross-layer projection between hemispheres  
 - **Walk-Forward Cross-Validation (WFCV):** Expanding-window evaluation across multiple assets  
-- **Comprehensive baselines:** CNN, LSTM, DLinear, TFT, FEDformer, PatchTST  
+- **Comprehensive baselines:** CNN, LSTM, DLinear, TFT, FEDformer, PatchTST, N-HiTS 
 - **Statistical validation:** Diebold–Mariano tests, confidence intervals, and directional accuracy metrics  
 
 ---
@@ -30,16 +30,28 @@ Key features:
 ## 📁 Repository Structure
 .
 ├── notebooks/
-│ ├── cross_brain_model_stock_market_AAPL.ipynb
-│ ├── cross_brain_model_stock_market_AMZN.ipynb
-│ ├── cross_brain_model_stock_market_GOOGL.ipynb
-│ ├── cross_brain_model_stock_market_SBUX.ipynb
-│ └── cross_brain_model_stock_market_TLT.ipynb
+│ ├── cross_brain_model_stock_market_AAPL_SEED_1.ipynb
+│ ├── cross_brain_model_stock_market_AAPL_SEED_42.ipynb
+│ ├── cross_brain_model_stock_market_AAPL_SEED_100.ipynb
+│ ├── cross_brain_model_stock_market_AMZN_SEED_1.ipynb
+│ ├── cross_brain_model_stock_market_AMZN_SEED_42.ipynb
+│ ├── cross_brain_model_stock_market_AMZN_SEED_100.ipynb
+│ ├── cross_brain_model_stock_market_GOOGL_SEED_1.ipynb
+│ ├── cross_brain_model_stock_market_GOOGL_SEED_42.ipynb
+│ ├── cross_brain_model_stock_market_GOOGL_SEED_100.ipynb
+│ ├── cross_brain_model_stock_market_SBUX_SEED_1.ipynb
+│ ├── cross_brain_model_stock_market_SBUX_SEED_42.ipynb
+│ ├── cross_brain_model_stock_market_SBUX_SEED_100.ipynb
+│ └── cross_brain_model_stock_market_TLT_SEED_1.ipynb
+│ └── cross_brain_model_stock_market_TLT_SEED_42.ipynb
+│ └── cross_brain_model_stock_market_TLT_SEED_100.ipynb
 ├── results/
-│ └── CrossBrainWFCV.csv
-├── metrics/
-│ └── WFCV_Metrics_Total.csv
-├── dm_tests/
-│ └── DM_Test_Results.csv
+│ └── CrossBrainWFCV_Result.csv
+├── image/
+│ └── AAPL.png
+│ └── AMZN.png
+│ └── GOOGL.png
+│ └── SBUX.png
+│ └── TLT.png
 └── README.md
 
